@@ -9,9 +9,9 @@ const config: Config = {
 		'./src/plugins/**/*.{js,ts}',
 		'./src/App.vue',
 		'./src/error.vue',
-		// monorepo - TODO: migrate this to its own package
-		'../../packages/**/*.{js,vue,ts}',
-		'!../../packages/**/node_modules/**',
+		// vendored workspace packages
+		'./packages/**/*.{js,vue,ts}',
+		'!./packages/**/node_modules/**',
 	],
 	presets: [preset],
 }
