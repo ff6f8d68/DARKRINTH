@@ -51,7 +51,7 @@ import type {
 } from '@/helpers/worlds.ts'
 import { getWorldIdentifier, set_world_display_status } from '@/helpers/worlds.ts'
 
-import { LockIcon } from '../../../../../../packages/assets/generated-icons'
+	import { LockIcon } from '@modrinth/assets'
 
 const { formatMessage } = useVIntl()
 const formatRelativeTime = useRelativeTime()
